@@ -1,0 +1,11 @@
+my_list = [1, 2, 3, 5, 7, 346, 235, 235, 347, -435, -23, 0]
+
+my_list.append(17)
+print(my_list)
+
+print(my_list[3])
+my_list.insert(3, -100)
+print(my_list)
+
+my_list.remove(-435)
+print(my_list)
